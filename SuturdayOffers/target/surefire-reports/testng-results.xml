@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="93" started-at="2019-10-12T22:13:39 IST" finished-at="2019-10-12T22:13:40 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="93" started-at="2019-10-12T22:13:39 IST" finished-at="2019-10-12T22:13:40 IST">
+      <class name="Website.SuturdayOffers.Operation">
+        <test-method status="PASS" signature="opration()[pri:0, instance:Website.SuturdayOffers.Operation@3532ec19]" name="opration" duration-ms="0" started-at="2019-10-12T22:13:39 IST" finished-at="2019-10-12T22:13:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opration -->
+      </class> <!-- Website.SuturdayOffers.Operation -->
+      <class name="Website.SuturdayOffers.LoginTest">
+        <test-method status="PASS" signature="login()[pri:0, instance:Website.SuturdayOffers.LoginTest@68c4039c]" name="login" duration-ms="0" started-at="2019-10-12T22:13:40 IST" finished-at="2019-10-12T22:13:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- Website.SuturdayOffers.LoginTest -->
+      <class name="Website.SuturdayOffers.LogoutTest">
+        <test-method status="PASS" signature="logout()[pri:0, instance:Website.SuturdayOffers.LogoutTest@ae45eb6]" name="logout" duration-ms="0" started-at="2019-10-12T22:13:40 IST" finished-at="2019-10-12T22:13:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- Website.SuturdayOffers.LogoutTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

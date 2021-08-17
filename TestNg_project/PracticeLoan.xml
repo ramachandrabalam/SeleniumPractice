@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PracticeSuite">
+<listeners>
+  <listener class-name="testNG_Listners.Listners"/>
+</listeners>
+
+  <test name="Loans">
+    <classes>
+      <class name="testNg_practice.Carloan">
+      <methods>
+      <exclude name="carLoan_mobile"/>
+      </methods>
+      </class>
+      <class name="testNg_practice.Homeloan">
+      <methods>
+      <include name="homeLoan_mobile"/>
+      </methods>
+      </class>
+      <class name="testNg_practice.PersonalLoan"/>
+      <class name="testNg_practice.TwowheelerLoan"/>
+    </classes>
+  </test> 
+  
+  <test name="CreditCard">
+  <classes>
+  <class name="TestNg_2.CreditCard"/>
+  </classes>
+  </test>
+</suite> 

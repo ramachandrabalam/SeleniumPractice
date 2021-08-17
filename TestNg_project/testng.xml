@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Second suite">
+  <test name="Second test">
+    <classes>
+      <class name="testNg_practice.Carloan"/>
+      <class name="testNg_dataprovider.Dataprovider"/>
+      
+      <class name="testNg_practice.TwowheelerLoan"/>
+      <class name="testNg_practice.Homeloan"/>
+      <class name="testNg_practice.PersonalLoan"/>
+    </classes>
+  </test> 
+  <test name="demotest">
+  <classes>
+  <class name="TestNg_2.CreditCard"/>
+  </classes>
+  </test>
+</suite> 

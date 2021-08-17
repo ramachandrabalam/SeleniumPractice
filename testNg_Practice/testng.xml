@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PracticeSuite">
+  <test thread-count="5" name="DemoTest">
+    <classes>
+      <class name="basics_TestNg.Login_module"/>
+      <class name="basics_TestNg.Logout_module"/>
+    </classes>
+  </test> <!-- DemoTest -->
+</suite> <!-- PracticeSuite -->

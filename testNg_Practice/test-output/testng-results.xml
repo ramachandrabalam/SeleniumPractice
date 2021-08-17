@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PracticeSuite" duration-ms="91" started-at="2019-08-10T12:53:14Z" finished-at="2019-08-10T12:53:14Z">
+    <groups>
+    </groups>
+    <test name="DemoTest" duration-ms="91" started-at="2019-08-10T12:53:14Z" finished-at="2019-08-10T12:53:14Z">
+      <class name="basics_TestNg.Login_module">
+        <test-method status="PASS" signature="apiLogin()[pri:0, instance:basics_TestNg.Login_module@4439f31e]" name="apiLogin" duration-ms="16" started-at="2019-08-10T12:53:14Z" finished-at="2019-08-10T12:53:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLogin -->
+        <test-method status="PASS" signature="mobileLogin()[pri:0, instance:basics_TestNg.Login_module@4439f31e]" name="mobileLogin" duration-ms="5" started-at="2019-08-10T12:53:14Z" finished-at="2019-08-10T12:53:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLogin -->
+        <test-method status="PASS" signature="webLogin()[pri:0, instance:basics_TestNg.Login_module@4439f31e]" name="webLogin" duration-ms="4" started-at="2019-08-10T12:53:14Z" finished-at="2019-08-10T12:53:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLogin -->
+      </class> <!-- basics_TestNg.Login_module -->
+      <class name="basics_TestNg.Logout_module">
+        <test-method status="PASS" signature="apiLogout()[pri:0, instance:basics_TestNg.Logout_module@5d5eef3d]" name="apiLogout" duration-ms="5" started-at="2019-08-10T12:53:14Z" finished-at="2019-08-10T12:53:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLogout -->
+        <test-method status="PASS" signature="webLogout()[pri:0, instance:basics_TestNg.Logout_module@5d5eef3d]" name="webLogout" duration-ms="2" started-at="2019-08-10T12:53:14Z" finished-at="2019-08-10T12:53:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLogout -->
+      </class> <!-- basics_TestNg.Logout_module -->
+    </test> <!-- DemoTest -->
+  </suite> <!-- PracticeSuite -->
+</testng-results>

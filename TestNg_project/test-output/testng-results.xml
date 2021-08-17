@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="93" started-at="2019-11-03T11:42:09Z" finished-at="2019-11-03T11:42:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="93" started-at="2019-11-03T11:42:09Z" finished-at="2019-11-03T11:42:09Z">
+      <class name="testNg_dataprovider.Dataprovider">
+        <test-method status="PASS" signature="getdata(java.lang.String, java.lang.String)[pri:0, instance:testNg_dataprovider.Dataprovider@6d8a00e3]" name="getdata" duration-ms="16" started-at="2019-11-03T11:42:09Z" data-provider="data" finished-at="2019-11-03T11:42:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[first username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[first password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdata -->
+        <test-method status="PASS" signature="getdata(java.lang.String, java.lang.String)[pri:0, instance:testNg_dataprovider.Dataprovider@6d8a00e3]" name="getdata" duration-ms="0" started-at="2019-11-03T11:42:09Z" data-provider="data" finished-at="2019-11-03T11:42:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[second username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[second password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdata -->
+        <test-method status="PASS" signature="getdata(java.lang.String, java.lang.String)[pri:0, instance:testNg_dataprovider.Dataprovider@6d8a00e3]" name="getdata" duration-ms="16" started-at="2019-11-03T11:42:09Z" data-provider="data" finished-at="2019-11-03T11:42:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[third username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[third password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdata -->
+      </class> <!-- testNg_dataprovider.Dataprovider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

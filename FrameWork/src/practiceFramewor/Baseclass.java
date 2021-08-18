@@ -19,7 +19,7 @@ public class Baseclass {
 		prop=new Properties();
 		fis = new FileInputStream("F:\\Selenium\\FrameWork\\src\\practiceFramewor\\base.properties");
 		prop.load(fis);
-		if(prop.getProperty("browser").equalsIgnoreCase("firefox")) {
+		if(prop.getProperty("browser").equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.firefox.driver", "firefox drivers path");
 			driver = new FirefoxDriver();
 		}else if(prop.getProperty("browser").equalsIgnoreCase("chrome")) {

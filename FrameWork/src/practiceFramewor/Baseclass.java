@@ -15,7 +15,7 @@ public class Baseclass {
 	public static Properties prop = null;
 	static FileInputStream fis = null;
 	
-	public static void main(String[] args) throws InterruptedException, IOException {
+	public static void setup() throws InterruptedException, IOException {
 		prop=new Properties();
 		fis = new FileInputStream("F:\\Selenium\\FrameWork\\src\\practiceFramewor\\base.properties");
 		prop.load(fis);
@@ -29,13 +29,16 @@ public class Baseclass {
 			System.setProperty("webdriver.ie.driver", "internet explorer drivers path");
 			driver = new InternetExplorerDriver();
 		}
-		driver.manage().window().maximize();
-		driver.manage().deleteAllCookies();
-		driver.get(prop.getProperty("url"));
-		
-		
 	
 		
 	}
+	
+	public static WebDriver getDriver() {
+		return driver;
+		
+	}
+
+
+
 
 }
